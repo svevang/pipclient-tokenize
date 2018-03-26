@@ -3,7 +3,8 @@ extern crate cpython;
 use cpython::{PyErr, Python};
 
 fn main(){
-    let _ = python_tokenize("Hello, how are you? I am fine thank you.");
+    let tokenized_result = python_tokenize("Hello, how are you? I am fine thank you.");
+    println!("Result: {:?}", tokenized_result);
 }
 
 pub fn python_tokenize(sentence: &str) -> Result<Vec<String>, PyErr> {
