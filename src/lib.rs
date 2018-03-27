@@ -2,11 +2,6 @@ extern crate cpython;
 
 use cpython::{PyErr, Python};
 
-fn main(){
-    let tokenized_result = python_tokenize("Hello, how are you? I am fine thank you.");
-    println!("Result: {:?}", tokenized_result);
-}
-
 pub fn python_tokenize(sentence: &str) -> Result<Vec<String>, PyErr> {
     let gil = Python::acquire_gil();
     let py = gil.python();
@@ -18,6 +13,3 @@ pub fn python_tokenize(sentence: &str) -> Result<Vec<String>, PyErr> {
 
     result
 }
-
-
-
