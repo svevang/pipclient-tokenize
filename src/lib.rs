@@ -8,7 +8,7 @@ pub fn python_tokenize(sentence: &str) -> Result<Vec<String>, PyErr> {
 
     // the python module packaged in this crate
 
-    let python_code_module = py.import("python_code").unwrap();
+    let python_code_module = py.import("simple_tokenize").unwrap();
     let result = python_code_module
         .call(py, "simple_tokenize", (sentence,), None)
         .unwrap()
