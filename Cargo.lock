@@ -9,7 +9,7 @@ dependencies = [
 [[package]]
 name = "cpython"
 version = "0.2.0"
-source = "git+https://github.com/svevang/rust-cpython.git?branch=feature/python-as-crate#374f2bbf5661b72fab177021a6cfe0320646995b"
+source = "git+https://github.com/svevang/rust-cpython.git?branch=feature/python-as-crate#3c4e7274d4871676a54be65f431a5ecb750d45e1"
 dependencies = [
  "libc 0.2.40 (registry+https://github.com/rust-lang/crates.io-index)",
  "num-traits 0.1.43 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -58,7 +58,7 @@ dependencies = [
 [[package]]
 name = "python-sys"
 version = "0.1.0"
-source = "git+https://github.com/svevang/rust-cpython.git?branch=feature/python-as-crate#374f2bbf5661b72fab177021a6cfe0320646995b"
+source = "git+https://github.com/svevang/rust-cpython.git?branch=feature/python-as-crate#3c4e7274d4871676a54be65f431a5ecb750d45e1"
 dependencies = [
  "regex 0.2.10 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -66,7 +66,7 @@ dependencies = [
 [[package]]
 name = "python3-sys"
 version = "0.2.0"
-source = "git+https://github.com/svevang/rust-cpython.git?branch=feature/python-as-crate#374f2bbf5661b72fab177021a6cfe0320646995b"
+source = "git+https://github.com/svevang/rust-cpython.git?branch=feature/python-as-crate#3c4e7274d4871676a54be65f431a5ecb750d45e1"
 dependencies = [
  "libc 0.2.40 (registry+https://github.com/rust-lang/crates.io-index)",
  "python-sys 0.1.0 (git+https://github.com/svevang/rust-cpython.git?branch=feature/python-as-crate)",
